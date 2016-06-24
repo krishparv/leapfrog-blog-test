@@ -1,0 +1,6 @@
+c:\users\ani\documents\visual studio 2013\Projects\Class1Test\Class1Test\bin\Debug\Class1Test.exe.config
+c:\users\ani\documents\visual studio 2013\Projects\Class1Test\Class1Test\bin\Debug\Class1Test.exe
+c:\users\ani\documents\visual studio 2013\Projects\Class1Test\Class1Test\bin\Debug\Class1Test.pdb
+c:\users\ani\documents\visual studio 2013\Projects\Class1Test\Class1Test\obj\Debug\Class1Test.csprojResolveAssemblyReference.cache
+c:\users\ani\documents\visual studio 2013\Projects\Class1Test\Class1Test\obj\Debug\Class1Test.exe
+c:\users\ani\documents\visual studio 2013\Projects\Class1Test\Class1Test\obj\Debug\Class1Test.pdb
