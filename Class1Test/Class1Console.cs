@@ -13,7 +13,7 @@ namespace Class1Test
             //hungary naming convention
             //cw refers shortcut of Console.WriteLine
             string userName = string.Empty;
-           // userName = CheckUserName(userName);
+          
             int i=0;
             while (CheckUserName(userName) != "admin" && i < 2)
             {
