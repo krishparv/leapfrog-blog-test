@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Class1Test
 {
-    class Class1Console
+    class ConsoleApp
     {
         static void Main(string[] args)
         {
@@ -18,7 +18,7 @@ namespace Class1Test
             while (CheckUserName(userName) != "admin" && i < 2)
             {
                 i++;
-                //abc
+                
               
             }
 
