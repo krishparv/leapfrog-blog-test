@@ -15,14 +15,14 @@ namespace Class1Test
             string userName = string.Empty;
           //
             int i=0;
-            while (CheckUserName(userName) != "admin" && i < 2)
+            while (CheckUserName(userName) != "admin" && i < 3)
             {
                 i++;
                 
               
             }
 
-            if(i==2)
+            if(i==3)
             {
                 Environment.Exit(0);
             }
@@ -32,17 +32,17 @@ namespace Class1Test
                 string password = string.Empty;
                 int j = 0;
 
-                Console.Write("Password:");
+             //   Console.Write("Password:");
                 // password = string.Empty;//Console.ReadLine();
 
-                while (ReadPassword(password) != "password" && j < 2)
+                while (ReadPassword(password) != "password" && j < 3)
                 {
                     j++;
-                    Console.WriteLine("");
-                    Console.WriteLine("Password:");
+                  
+                    
                 }
 
-                if (j == 2)
+                if (j == 3)
                 {
                     Environment.Exit(0);
                 }
@@ -91,6 +91,8 @@ namespace Class1Test
 
         private static string ReadPassword(string password)
         {
+          //  string password = string.Empty;
+            Console.Write("Password:");
             ConsoleKeyInfo info = Console.ReadKey(true);
             while (info.Key != ConsoleKey.Enter)
             {
@@ -101,6 +103,8 @@ namespace Class1Test
                 }
                 info = Console.ReadKey(true);
             }
+            Console.WriteLine("");
+
             return password;
         }
     }
