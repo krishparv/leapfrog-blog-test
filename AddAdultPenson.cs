@@ -20,10 +20,10 @@ namespace BridaBhatta
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string DOB { get; set; }
-        public int Age { get{return calculateAge() ;}}
+        public int Age { get{return Convert.ToInt16(calculateAge()) ;}}
 
 
-        public double Amount { get { return calculateAmount(); } }
+        public double Amount { get { return Convert.ToDouble(calculateAmount()); } }
        
 
         private int calculateAge()

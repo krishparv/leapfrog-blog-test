@@ -39,12 +39,21 @@ namespace BridaBhatta
 
             Console.WriteLine("Details are:");
             Console.WriteLine("Full Name:     Age:      Amount:");
+
+              string query="Insert into PersonInfo (FirstName, LastName, DOB, Age, Amount) values(@fname,@lname,@dob,@age,@amount)";
+            SqlHelper sqlhp = new SqlHelper();
+          
             foreach (var item in ListAdultPenson)
             {
                 Console.Write(item.FirstName + " " + item.LastName + "     ");
                 Console.Write(item.Age+ "     ");
                 Console.WriteLine(item.Amount);
+                sqlhp.ExectueNonQuery(query,"@fname",item.FirstName,"@lname",item.LastName,"@dob",item.DOB,"@age",item.Age,"@amount",item.Amount);
             }
+
+            
+            sqlhp.Disconnect();
+
             Console.ReadLine();
         }
     }

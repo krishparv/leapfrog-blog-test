@@ -1,0 +1,9 @@
+c:\users\ani\documents\visual studio 2013\Projects\BridaBhatta\BridaBhatta\bin\Debug\BridaBhatta.exe.config
+c:\users\ani\documents\visual studio 2013\Projects\BridaBhatta\BridaBhatta\bin\Debug\BridaBhatta.exe
+c:\users\ani\documents\visual studio 2013\Projects\BridaBhatta\BridaBhatta\bin\Debug\BridaBhatta.pdb
+c:\users\ani\documents\visual studio 2013\Projects\BridaBhatta\BridaBhatta\obj\Debug\BridaBhatta.csprojResolveAssemblyReference.cache
+c:\users\ani\documents\visual studio 2013\Projects\BridaBhatta\BridaBhatta\obj\Debug\BridaBhatta.exe
+c:\users\ani\documents\visual studio 2013\Projects\BridaBhatta\BridaBhatta\obj\Debug\BridaBhatta.pdb
+C:\Users\ani\Documents\Visual Studio 2013\Projects\Class1Test\leapfrog-blog-test\BridaBhatta\BridaBhatta\bin\Debug\BridaBhatta.exe.config
+C:\Users\ani\Documents\Visual Studio 2013\Projects\Class1Test\leapfrog-blog-test\BridaBhatta\BridaBhatta\obj\Debug\BridaBhatta.exe
+C:\Users\ani\Documents\Visual Studio 2013\Projects\Class1Test\leapfrog-blog-test\BridaBhatta\BridaBhatta\obj\Debug\BridaBhatta.pdb
