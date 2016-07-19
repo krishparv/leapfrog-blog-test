@@ -1,44 +1,51 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Class1Test
+namespace BridaBhatta
 {
     class Program
     {
 
-        class checkpoint
+
+        static void Main(string[] args)
         {
-            public string userid;
-            public string password;
+
+            bool checkContinue = true;
+            
+            List<AddAdultPenson> ListAdultPenson = new List<AddAdultPenson>();
+            while (checkContinue)
+            {
+                AddAdultPenson _addOneAdultPension = new AddAdultPenson();
+
+                Console.Write("Enter First Name:");
+                _addOneAdultPension.FirstName = Console.ReadLine();
+
+                Console.Write("Enter Last Name:");
+                _addOneAdultPension.LastName = Console.ReadLine();
+
+                Console.WriteLine("Enter Your Date of Birth:");
+                _addOneAdultPension.DOB = Console.ReadLine();
+                var year = DateTime.Parse(_addOneAdultPension.DOB).Year;
+
+                ListAdultPenson.Add(_addOneAdultPension);
+                Console.WriteLine("Do you want to continue?Y/N?");
+                checkContinue = (Console.ReadLine().ToUpper()) == "Y" ? true : false;
+
+            }
+
+            Console.WriteLine("Details are:");
+            Console.WriteLine("Full Name:     Age:      Amount:");
+            foreach (var item in ListAdultPenson)
+            {
+                Console.Write(item.FirstName + " " + item.LastName + "     ");
+                Console.Write(item.Age+ "     ");
+                Console.WriteLine(item.Amount);
+            }
+            Console.ReadLine();
         }
-        //static void Main(string[] args)
-        //{
-        //    checkpoint chkp1 = new checkpoint();
-        //    chkp1.userid = "Administrator";
-        //    chkp1.password = "password";
-
-        //    checkpoint chkp2 = new checkpoint();
-
-        //    Console.WriteLine("Admin Login:");
-        //    chkp2.userid = Console.ReadLine();
-
-        //    Console.WriteLine("Password");
-        //    chkp2.password = Console.ReadLine();
-
-        //    if (chkp1.userid == chkp2.userid && chkp1.password== chkp2.password)
-        //    {
-        //        Console.WriteLine("Hello World!!");
-        //    }
-
-        //    else
-        //    {
-        //        Console.WriteLine("Sorry!! not available");
-        //    }
-
-        //    Console.ReadLine();
-        //}
     }
 }
